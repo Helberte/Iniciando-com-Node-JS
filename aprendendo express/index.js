@@ -69,7 +69,24 @@ app.get('/paramNoObrigation/:artigo?',function(req, res){
 // colocando a ? no parametro, ele fica sendo opcional
 
 
+// QUERY PARAM
 
+// este é um tipo de parâmetro que não é fixo na rota
+// ou seja, o usuário pode enviar um query param em qualquer
+// rota, bastando acrescentar um ponto de interrogação no fim
+// da rota
+// ex: rota?nome_parametro=valor_parametro
+
+
+app.get('/query_param', function(req, res){
+  let query_param = req.query["nome"];
+
+  if(query_param){
+    res.send(query_param);
+  }else{
+    res.send('Olá pessoal');
+  }
+});
 
 
 
