@@ -1,0 +1,9 @@
+Node
+
+Iniciando um pojeto node
+
+- npm init
+
+Instalar o express
+- npm install express --save
+			Save é um comando para salvar os arquivos na pasta do projeto
