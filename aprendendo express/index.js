@@ -9,7 +9,7 @@ app.get("/",function(req, res){
 
 // como devolver uma resposta ?
 
-  res.send('Bem vindo helberteeeeeee');
+  res.send('<h1>Bem vindo helberteeeeeee</h1>');
 
 // send significa enviar
 // quando uma resposta é enviada, todo o resto do código
@@ -18,13 +18,13 @@ app.get("/",function(req, res){
 });
 
 app.get('/blog', function(req, res){
-  res.send('Bem vindo ao meu blog');
+  res.send('Bem vindo ao meu blog, testando o nodemon');
 });
 
 
 app.get('/portfolio/helberte', (req, res) => {
   res.send('Vem vindo ao meu portfolio');
-})
+});
 
 
 

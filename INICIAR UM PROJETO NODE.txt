@@ -7,3 +7,24 @@ Iniciando um pojeto node
 Instalar o express
 - npm install express --save
 			Save é um comando para salvar os arquivos na pasta do projeto
+
+
+Importar o express no arquivo index.js
+-- const express = require('express');
+
+
+TRABALHAR COM NODEMON
+O nodemon permite que o servidor seja reiniciado toda vez que for detectada uma alteração 
+no projeto, isso automaticamente, não sendo necessária a inicialização manual
+
+-- npm install nodemon -g
+
+O parametro -g significa que eu quero instalar a biblioteca globalmente no computador
+e não apenas no projeto em questão
+
+
+COMO USAR O NODEMON ?
+
+-- nodemon nome_arquivo.js
+
+o nodemon e o nome do arquivo que queremos rodar
