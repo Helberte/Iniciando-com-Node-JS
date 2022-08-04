@@ -1,0 +1,15 @@
+{
+  "name": "desenvolvimento-web",
+  "version": "1.0.0",
+  "description": "Projeto da aula 03/08/2022",
+  "main": "main.js",
+  "scripts": {
+    "start": "node main.js"
+  },
+  "author": "Helberte costa arruda",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}

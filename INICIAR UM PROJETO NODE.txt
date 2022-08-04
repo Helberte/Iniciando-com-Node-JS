@@ -28,3 +28,11 @@ COMO USAR O NODEMON ?
 -- nodemon nome_arquivo.js
 
 o nodemon e o nome do arquivo que queremos rodar
+
+
+SEMPRE QUE ABRIR UM NOVO PROJETO NODE
+
+-- npm install
+
+este comando vai instalar todas as dependencias do projeto
+
