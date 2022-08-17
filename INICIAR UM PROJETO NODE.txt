@@ -57,6 +57,11 @@ FUNÇÃO: DESENHAR HTML NO BROWSER, MONTAR PÁGINAS HTML
 -- res.render('nomeArquivoHTML');
 
 
+CONFIGURAR GIT
+
+git config --global user.email "helberteads@gmail.com"
+git config --global user.name "Helberte"
+
 
 
 
