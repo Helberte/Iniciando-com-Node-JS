@@ -36,3 +36,30 @@ SEMPRE QUE ABRIR UM NOVO PROJETO NODE
 
 este comando vai instalar todas as dependencias do projeto
 
+
+
+MOSTRAR HTML NO NAVEGADOR
+
+UTILIZA-SE O EJS QUE NADA MAIS DO QUE UM TEMPLATE ENGINE, OU SEJA,
+UM MOTOR DE TEMPLATE
+
+FUNÇÃO: DESENHAR HTML NO BROWSER, MONTAR PÁGINAS HTML
+
+-- npm install ejs --save
+
+1° - configurar express 
+-- app.set('view engine','ejs');
+
+2° - criar pasta padrão do express para conter os htmls
+-- pasta views 
+
+2° - dar a resposta para o usuário
+-- res.render('nomeArquivoHTML');
+
+
+
+
+
+
+
+

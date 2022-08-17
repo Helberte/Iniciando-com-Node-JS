@@ -1,0 +1,15 @@
+{
+  "name": "treinando_template",
+  "version": "1.0.0",
+  "description": "projeto para treina como usar um template da internet",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Helberte Costa Arruda",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.8",
+    "express": "^4.18.1"
+  }
+}
