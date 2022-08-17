@@ -31,6 +31,6 @@ app.get('/:nome/:idade', (req, res) => {
 });
 
 //levantando servidor
-app.listen(8081, _ => {
+app.listen(3000, _ => {
   console.log('Servidor levantado');
 });
