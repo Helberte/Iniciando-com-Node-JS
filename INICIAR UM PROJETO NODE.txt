@@ -63,6 +63,9 @@ git config --global user.email "helberteads@gmail.com"
 git config --global user.name "Helberte"
 
 
+ver os commits
+-- git log --oneline
+
 
 
 

@@ -8,6 +8,11 @@ app.set('view engine', 'ejs');
 // CSS, IMAGENS, JAVASCRIPT DO FRONT-END, ARQUIVOS DE DADOS ETC
 app.use(express.static('public'));
 
+app.get('/home', (req, res) =>{
+  res.render('newSite');
+})
+
+
 app.get('/:nome/:idade', (req, res) => {
  
   var solteiro = 'SIM';
