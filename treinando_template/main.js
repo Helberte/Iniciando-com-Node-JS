@@ -19,7 +19,7 @@ app.get('/', (req, res) => {
   res.render("index", {
     nome: nome,
     lang: lang,
-    empresa: 'hWeb'
+    empresa: 'node da empresa'
   });
 });
 

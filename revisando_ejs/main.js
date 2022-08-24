@@ -31,7 +31,7 @@ app.get('/:nome/:idade', (req, res) => {
     idade: idade,
     estadoCivil: solteiro,
     msg: exibirMSG,
-    produtos: produtos
+    produtos: produtos 
   });
 });
 
